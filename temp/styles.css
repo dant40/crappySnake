@@ -1,0 +1,28 @@
+#root {
+  margin: 5px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+#top {
+  text-align: center;
+  font-family: monospace;
+  position: relative;
+  top: 45px;
+}
+
+#root1 {
+  border-style: groove;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+#audio{
+  position : fixed;
+  top : 0;
+  left : 0;
+  padding : 3px;
+}
