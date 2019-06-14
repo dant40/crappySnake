@@ -13,6 +13,7 @@ Features:
 + Get high scores
 + Change the background color
 + Cycle through a bunch of background colors
++ Choose cycle speed
 + Play some copyright infringing audio
 + Choose a bg color preset to cycle through
 + Look at a marquee
@@ -21,7 +22,6 @@ Features:
 Possible Planned Features:
 ------
 + Make user able to import any audio
-+ Let user choose cycle speed
 + Make it less crappy
 
 
