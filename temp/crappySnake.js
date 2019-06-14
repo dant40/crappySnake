@@ -16,11 +16,8 @@ import "./styles.css";
 //currently pretty unfun , but I don't care to touch it up
 //uses react api
 
-// This a component "borrowed" from SO
-// Why reinvent the wheel, right?
-// (I know, I know, but html audio tags thrown into my JSX didn't work)
-
-
+// This a component adapted partially from SO
+// plays audio, but can't pause?
 function AudPlayer({url}) {
     const [audio, setAudio] = useState(new Audio(url));
     const [playing, setPlaying] = useState(false);
