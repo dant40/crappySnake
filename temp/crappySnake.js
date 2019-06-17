@@ -4,8 +4,7 @@ import { createStore } from "redux";
 import "./styles.css";
 
 //===================================
-/*An awful game(?)
- * May be the 2nd worst thing I've ever made
+/*An mediocre "game"
  * Known issues:
  * Sometime you slip into the void while moving
  * Sometimes X spawns in out of view places
@@ -40,8 +39,8 @@ function Game() {
   const speed = window.innerHeight / 20;
   //set up hooks
   const [count, setCount] = useState(0);
-  const [yPos, setYPos] = useState(150);
-  const [xPos, setXPos] = useState(150);
+  const [yPos, setYPos] = useState(window.innerHeight/2);
+  const [xPos, setXPos] = useState(window.innerWidth/2);
   const [timer, setTimer] = useState(0);
   const [r1, setR1] = useState(Math.random() * window.innerHeight);
   const [r2, setR2] = useState(Math.random() * window.innerWidth);
@@ -160,7 +159,7 @@ function Game() {
         </p>
       </div>
       <span id="audio">
-        <input  type="url" onInput ={(e)=>{
+        <input placeholder = "Enter a link to music"  type="url" onInput ={(e)=>{
           setUrl(e.target.value);
         }}></input>   
         <AudPlayer url = {url}/>
