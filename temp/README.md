@@ -19,6 +19,12 @@ Features:
 + Look at a marquee
 + Let's user import a color preset
 
+How To Run:
+-----
++ Use npm to install react and redux
++ Use create-react-app or nwb to make a project, and copy/paste these files
++ Alternatively copy/paste into a website like codesandbox to just run it in browser.
+
 # No further updates planned
 
 Please Don't Interact With This, It's Awful
