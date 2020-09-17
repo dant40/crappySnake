@@ -487,6 +487,6 @@ function doCycle(rate) {
         }
       }
     } else clearInterval(si);
-  }, rate);
+  }, rate * 20);
 }
 //===================
